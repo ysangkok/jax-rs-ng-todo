@@ -1,4 +1,4 @@
-JAX-RS/SQLite frontend for ng-todo
+JAX-RS/SQLite backend for ng-todo
 ---
 
 1. clone this repo and enter the cloned directory
