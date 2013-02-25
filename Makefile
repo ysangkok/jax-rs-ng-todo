@@ -10,7 +10,7 @@ very-clean: clean
 
 clean:
 	find topack -name '*.class' -delete
-	-rm database.sqlite
+	-rm database.sqlite bundle.jar
 
 .PHONY : default run clean very-clean
 
