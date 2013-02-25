@@ -42,7 +42,7 @@ public class Hello {
           return o;
   }
   
-  SQLiteConnection db = new SQLiteConnection(new File("/tmp/database"));
+  SQLiteConnection db = new SQLiteConnection(new File("database.sqlite"));
   public Hello() {
   }
 
