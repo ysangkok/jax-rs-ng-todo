@@ -3,7 +3,7 @@ MYCP=gson.jar:sqlite4java.jar:jersey-bundle.jar:jetty-runner.jar
 default: clean database.sqlite run
 
 run: bundle.jar
-	java -cp ${MYCP} org.eclipse.jetty.runner.Runner bundle.jar
+	java -cp ${MYCP} org.eclipse.jetty.runner.Runner --port 8082 bundle.jar
 
 very-clean: clean
 	-rm *.jar *.zip *.so *.dll *.jnilib
