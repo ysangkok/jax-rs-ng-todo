@@ -27,19 +27,19 @@ database.sqlite:
 	-sqlite3 -init init.sql database.sqlite .quit
 
 jersey-bundle.jar:
-	wget -O jersey-bundle.jar "http://search.maven.org/remotecontent?filepath=com/sun/jersey/jersey-bundle/1.17/jersey-bundle-1.17.jar"
+	wget -O jersey-bundle.jar "http://search.maven.org/remotecontent?filepath=com/sun/jersey/jersey-bundle/1.19/jersey-bundle-1.19.jar"
 
 asm.jar:
 	wget -O asm.jar "http://search.maven.org/remotecontent?filepath=org/eclipse/jetty/orbit/org.objectweb.asm/3.3.1.v201105211655/org.objectweb.asm-3.3.1.v201105211655.jar"
 
 jetty-runner.jar:
-	wget -O jetty-runner.jar "http://search.maven.org/remotecontent?filepath=org/eclipse/jetty/jetty-runner/9.0.0.RC1/jetty-runner-9.0.0.RC1.jar"
+	wget -O jetty-runner.jar "http://search.maven.org/remotecontent?filepath=org/eclipse/jetty/jetty-runner/9.3.2.v20150730/jetty-runner-9.3.2.v20150730.jar"
 
 gson.jar:
-	wget -O gson.jar "http://search.maven.org/remotecontent?filepath=com/google/code/gson/gson/2.2.2/gson-2.2.2.jar"
+	wget -O gson.jar "http://search.maven.org/remotecontent?filepath=com/google/code/gson/gson/2.3.1/gson-2.3.1.jar"
 
 sqlite4java.jar: sqlite4java.zip
 	unzip -j sqlite4java.zip
 
 sqlite4java.zip:
-	wget -O sqlite4java.zip "http://sqlite4java.googlecode.com/files/sqlite4java-282.zip"
+	wget -O sqlite4java.zip "https://d1.almworks.com/.files/sqlite4java/sqlite4java-392.zip"
